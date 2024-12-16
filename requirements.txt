@@ -2,5 +2,5 @@ nltk
 numpy
 torch
 pandas
-scikit-learn
-plotly
+scipy
+spacy
