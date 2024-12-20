@@ -5,3 +5,6 @@ pandas
 scipy
 spacy
 datasets
+matplotlib
+scikit-learn
+transformers
