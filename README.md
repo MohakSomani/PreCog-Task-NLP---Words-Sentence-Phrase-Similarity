@@ -28,7 +28,7 @@ This repository contains the implementation and evaluation of various approaches
   - `tqdm`
 - SpaCy model: `en_core_web_md`
 
-## Installation
+## How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/[YourUsername]/semantic-similarity-nlp.git
@@ -42,6 +42,7 @@ This repository contains the implementation and evaluation of various approaches
    ```bash
    python -m spacy download en_core_web_md
    ```
+4. Run the Individual Python Notebooks for each task
 
 ## Implementation Details
 ### Word Embeddings from Scratch
@@ -70,19 +71,6 @@ This repository contains the implementation and evaluation of various approaches
 | **Sentence Avg.**| 0.4434  | 0.4422    | 0.9924 | 0.6118   | -0.0155     |
 | **Fine-Tuned BERT**| 0.9019 | 0.8585    | 0.9316 | 0.8935   | 0.8374      |
 
-## How to Run
-1. Train and evaluate CBOW/Skip-Gram models:
-   ```bash
-   python train_word_embeddings.py
-   ```
-2. Compute sentence/phrase similarity:
-   ```bash
-   python sentence_similarity.py
-   ```
-3. Fine-tune and evaluate BERT:
-   ```bash
-   python fine_tune_bert.py
-   ```
 
 ## References
 - [Word2Vec From Scratch](https://medium.com/@enozeren/word2vec-from-scratch-with-python-1bba88d9f221)
